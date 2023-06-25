@@ -4,7 +4,7 @@ function loadFile(url, callback) {
 
 function gerar(alunos, curso) {
 	loadFile(
-		"https://raw.githubusercontent.com/jrobertogram/cvs/main/modeloJS.docx",
+		"recursos/modeloJS.docx",
 		function(error, content) {
 			if (error) {
 				throw error;
