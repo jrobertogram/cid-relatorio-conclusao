@@ -15,18 +15,9 @@
   margin-top: 30px;
 }
 
-/* 
-footer{
-    position: fixed; 
-    bottom: 0px;
-    width: 100%; 
-
-    .foo{
-        background-color: rgba(0, 0, 0, 0.2);
-        border-top: solid rgb(74, 91, 144) 1px;
-    }
-
-} */
+.foo{
+    background-color: rgba(0, 0, 0, 0.2);
+}
 
 #dropzone-presenca, #dropzone-alunos {
     border: 2px dashed #ccc; /* Optional: Add a border */
@@ -84,6 +75,10 @@ footer{
         --bs-bg-opacity: 1;
         /*background-color: rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity))!important;*/
         background-color:#00030a  !important;
+    }
+
+    .foo{
+        border-top: solid rgb(74, 91, 144) 1px;
     }
     
     .btn-primary {
