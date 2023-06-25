@@ -197,6 +197,7 @@ function getDataAtualFormatada() {
 Dropzone.autoDiscover = false;
 
 let configDropzone = {
+	autoProcessQueue: false,
 	addRemoveLinks: true,
 	acceptedFiles: "text/csv",
 	dictRemoveFile: "Remover arquivo",
