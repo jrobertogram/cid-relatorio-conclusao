@@ -8,7 +8,7 @@ Esse projeto auxiliar na criação de relatórios de conclusão de min
 Basta enviar os arquivos CSV's disponibilizados pelo Google forms, plataforma atual usada para inscrições nos mini curso e para realização de chamadas, e posteriormente preencher as informações básicas do minicursos no site.
 ## Instruções
 
-Como citado acima fazemos as inscrições e lista de presença pelo Google forms, abaixo segue os modelos devidamente validados e configurado que funciona junto ao sistema e para lhe poupar trabalho, além que é recomando seguir a nomeclatura do forms, isso vai ter ajudar a organizar seus forms/minicursos melhor.
+Como citado acima fazemos as inscrições e lista de presença pelo Google forms, abaixo segue os modelos devidamente validados e configurado que funciona junto ao sistema e para lhe poupar trabalho, além que é recomendado seguir a nomeclatura do forms, isso vai ajudar a organizar seus forms/minicursos melhor.
 
 Os modelos só estão disponíveis para instrutores do CID, caso não esteja conseguindo acessar, entrar em contato com o seu coordenador ou responsável.
 
