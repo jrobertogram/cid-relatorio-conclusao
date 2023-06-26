@@ -43,4 +43,4 @@ https://jrobertogram.github.io/cid-relatorio-conclusao/
 
 ## Feedback
 
-Se você tiver algum feedback, por favor nos deixe saber por meio de fake@fake.com
+Se você tiver algum feedback, por favor nos deixe saber por meio de jose.silva9@arapiraca.ufal.br
