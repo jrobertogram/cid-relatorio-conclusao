@@ -1,6 +1,5 @@
 
 
-
 ## Objetivo
 
 Esse projeto auxiliar na criação de relatórios de conclusão de minicursos para os instrutores do Centro de Inclusão Digital da UFAL, além da disponibilização de modelos.
@@ -9,25 +8,25 @@ Esse projeto auxiliar na criação de relatórios de conclusão de min
 Basta enviar os arquivos CSV's disponibilizados pelo Google forms, plataforma atual usada para inscrições nos mini curso e para realização de chamadas, e posteriormente preencher as informações básicas do minicursos no site.
 ## Instruções
 
-Como citado acima fazemos as inscrições e lista de presença pelo Go gle forms, abaixo segue os modelos, devidamente validados e configurado que funciona junto ao sistema e para lhe poupar trabalho.
+Como citado acima fazemos as inscrições e lista de presença pelo Google forms, abaixo segue os modelos devidamente validados e configurado que funciona junto ao sistema e para lhe poupar trabalho, além que é recomando seguir a nomeclatura do forms, isso vai ter ajudar a organizar seus forms/minicursos melhor.
 
 Os modelos só estão disponíveis para instrutores do CID, caso não esteja conseguindo acessar, entrar em contato com o seu coordenador ou responsável.
 
 **Façam suas próprias cópias do modelo do Google forms, esses links abaixo são apenas os modelos.**
 #### Modelo de Inscrições:
 
-[acessar modelo](https://docs.google.com/forms/d/exemplo/edit)
+[acessar modelo](https://docs.google.com/forms/d/1KogF0BrXxWpYvh-gZ5GJim_xTNLrUjGbLlKxPskzFgU/edit?usp=sharing)
 
 Nesse modelo os campos E-mail, Nome Completo, CPF e Matrícula, não devem ser alterados a ordem, pois o sistema se baseada nesse item nessa devida ordem, outros campos podem ser editado, adicionado ou removido perante sua necessidade e gostos sem problemas.
 #### Modelo para Lista de Presença
 
-[acessar modelo](https://docs.google.com/forms/d/exemplo/edit)
+[acessar modelo](https://docs.google.com/forms/d/1OwjkCqiENMmAByqLpOY_VO2wn-nEnGBjljk0i3P26uE/edit?usp=sharing)
 
-Nesse modelo o campo de CPF, não deve ser alterado sua posição, CPF é utilizado como critério identificador do aluno.
+Nesse modelo o campo de CPF, não deve ser alterado sua posição, CPF é utilizado como critério identificador do aluno, lembrando que terá de criar um forms para cadia dia/aula para fazer a presença.
 
 #### Modelo Bonus Feedback
 
-[acessar modelo](https://docs.google.com/forms/d/exemplo/edit)
+[acessar modelo](ttps://docs.google.com/forms/d/1Rzou7FX55iU5f-1RR6LsuJG3MfPccQ2qupYFn9XLxMc/edit?usp=sharing)
 
 Modelo para receber e analisar feedback do seu Minicurso, pode personalizar a vontade, recomendo não atribuir nenhum dado identificador do aluno para ele ficar mais a vontade em prestar um feedback sincero.
 ## Gerar o relatorio
