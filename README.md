@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Esse projeto auxiliar na criação de relatórios de conclusão de minicursos para os instrutores do Centro de Inclusão Digital da UFAL, além da disponibilização de modelos.
+Esse projeto visa auxiliar na criação de relatórios de conclusão de minicursos para os instrutores do Centro de Inclusão Digital da UFAL, além da disponibilização de modelos.
 ## Como funciona?
 
 Basta enviar os arquivos CSV's disponibilizados pelo Google forms, plataforma atual usada para inscrições nos mini curso e para realização de chamadas, e posteriormente preencher as informações básicas do minicursos no site.
