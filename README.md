@@ -26,7 +26,7 @@ Nesse modelo o campo de CPF, não deve ser alterado sua posição, CPF é utiliz
 
 #### Modelo Bonus Feedback
 
-[acessar modelo](ttps://docs.google.com/forms/d/1Rzou7FX55iU5f-1RR6LsuJG3MfPccQ2qupYFn9XLxMc/edit?usp=sharing)
+[acessar modelo](https://docs.google.com/forms/d/1Rzou7FX55iU5f-1RR6LsuJG3MfPccQ2qupYFn9XLxMc/edit?usp=sharing)
 
 Modelo para receber e analisar feedback do seu Minicurso, pode personalizar a vontade, recomendo não atribuir nenhum dado identificador do aluno para ele ficar mais a vontade em prestar um feedback sincero.
 ## Gerar o relatorio
