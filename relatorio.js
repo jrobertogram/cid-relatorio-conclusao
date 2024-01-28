@@ -133,6 +133,10 @@ function filtrarPresenca(cpfs_presenca, quantidadePresente) {
 		return presente[cpf] >= quantidadePresente;
 	});
 
+	for (let i = 0; i < qualificado.length; i++) {
+		qualificado[i] = qualificado[i].replace(/[^0-9]/g, '');
+	}
+
 	return qualificado;
 }
 
