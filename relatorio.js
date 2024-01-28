@@ -106,12 +106,15 @@ function filtrarAlunosPresentes(cpfs_presente, callback) {
 			line = line.replace(/"/g, '');
 			const alunoData = line.split(',');
 			const cpf_aluno = alunoData[3];
+//11788149475\r
+			//console.log(cpfs_presente)
+			//console.log(cpf_aluno)
 
 			if (cpfs_presente.includes((cpf_aluno))) {
 				alunos_presentes.push(alunoData);
 			}
 		});
-
+		//console.log(alunos_presentes)
 		callback(alunos_presentes);
 	};
 
@@ -129,6 +132,31 @@ function filtrarPresenca(cpfs_presenca, quantidadePresente) {
 		return obj;
 	}, {});
 
+	const qualificado = Object.keys(presente).filter(function(cpf) {
+		return presente[cpf] >= quantidadePresente;
+	});
+
+	for (let i = 0; i < qualificado.length; i++) {
+		qualificado[i] = qualificado[i].replace(/[^0-9]/g, '');
+	}
+
+	return qualificado;
+}
+
+function filtrarPresenca(cpfs_presenca, quantidadePresente) {
+	// Filtra e conta a presença de cada CPF após remover caracteres não numéricos
+	const presente = cpfs_presenca.reduce(function(obj, cpf) {
+		// Função para manter apenas números em um CPF
+		function manterApenasNumeros(cpf) {
+			return cpf.replace(/[^0-9]/g, '');
+		}
+
+		const cpfNumerico = manterApenasNumeros(cpf);
+		obj[cpfNumerico] = obj[cpfNumerico] ? obj[cpfNumerico] + 1 : 1;
+		return obj;
+	}, {});
+
+	// Filtra os CPFs que atendem à quantidade mínima de presenças
 	const qualificado = Object.keys(presente).filter(function(cpf) {
 		return presente[cpf] >= quantidadePresente;
 	});
