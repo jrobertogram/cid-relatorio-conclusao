@@ -143,27 +143,6 @@ function filtrarPresenca(cpfs_presenca, quantidadePresente) {
 	return qualificado;
 }
 
-function filtrarPresenca(cpfs_presenca, quantidadePresente) {
-	// Filtra e conta a presença de cada CPF após remover caracteres não numéricos
-	const presente = cpfs_presenca.reduce(function(obj, cpf) {
-		// Função para manter apenas números em um CPF
-		function manterApenasNumeros(cpf) {
-			return cpf.replace(/[^0-9]/g, '');
-		}
-
-		const cpfNumerico = manterApenasNumeros(cpf);
-		obj[cpfNumerico] = obj[cpfNumerico] ? obj[cpfNumerico] + 1 : 1;
-		return obj;
-	}, {});
-
-	// Filtra os CPFs que atendem à quantidade mínima de presenças
-	const qualificado = Object.keys(presente).filter(function(cpf) {
-		return presente[cpf] >= quantidadePresente;
-	});
-
-	return qualificado;
-}
-
 
 
 function JuntarCsv(files, callback) {
